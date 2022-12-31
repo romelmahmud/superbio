@@ -1,0 +1,27 @@
+:root{
+  --bg-dark: #000;
+  --bg-dark-700: #0F1C26;
+  --bg-dark-500: #212F39;
+  --clr-accent:#0082FF;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,h2,h3,p{
+  margin: 0;
+  padding: 0;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+body{
+  background-color: var(--bg-dark);
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
